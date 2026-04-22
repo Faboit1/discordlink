@@ -9,8 +9,7 @@ commands:
   link:
     description: Link your Minecraft account to Discord using a verification code.
     usage: /link <code>
-    permission: discordlink.link
-    permission-message: You do not have permission to use this command.
+    aliases: [ discordlink ]
 
 permissions:
   discordlink.link:
