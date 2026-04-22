@@ -51,7 +51,7 @@ public class LinkCommand implements CommandExecutor {
 
         // Run the HTTP request asynchronously so we don't block the main thread
         plugin.getServer().getScheduler().runTaskAsynchronously(plugin, () -> {
-            String result = sendLinkRequest(player.getName(), player.getUniqueId().toString(), code);
+            LinkResult result = sendLinkRequest(player.getName(), player.getUniqueId().toString(), code);
             // Send feedback back on the main thread
             plugin.getServer().getScheduler().runTask(plugin, () ->
                     player.sendMessage(Component.text(result.message(), result.color()))
