@@ -1,0 +1,4 @@
+# DiscordLink configuration
+
+# The full URL of the link-attempt endpoint exposed by your Node.js bot API.
+api-url: "http://localhost:3000/link-attempt"
