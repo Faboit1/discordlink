@@ -1,0 +1,6 @@
+--release
+17
+-cp
+/dev/null
+/home/runner/work/discordlink/discordlink/src/main/java/com/discordlink/DiscordLinkPlugin.java
+/home/runner/work/discordlink/discordlink/src/main/java/com/discordlink/LinkCommand.java
